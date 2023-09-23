@@ -32,6 +32,15 @@ Description: Utilizing unsupervised learning techniques, I've developed a system
 
 Description: In this collaborative filtering endeavor, I've built a movie recommendation system that employs both item-based and user-based approaches. By analyzing user behaviors and preferences, this system provides tailored movie suggestions.
 
+- **Stock Price Fluctuation Prediction**
+  - **Tech Stack:** Python, Scikit-learn, TensorFlow
+  - **Description:** Predicting stock price fluctuations using NLP techniques like Bag of Words, TF-IDF, and Word2Vec. Experimented with TensorFlow for deep learning-based predictions.
+
+- **Fake News Detection with LSTM**
+  - **Tech Stack:** Python, TensorFlow, Keras
+  - **Description:** Implemented Long Short-Term Memory (LSTM) networks to identify fake news articles, applying sequential analysis for accurate detection.
+
+
 ## Usage
 
 Each project directory contains its specific implementation details, including code samples and explanations. Feel free to explore and learn from the codebase.
