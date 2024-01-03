@@ -59,6 +59,3 @@ print("The w and b is: ",w,b)
 prediction= (w*x_input)+b
 print("Number of Iterations: ",len(j))
 print("The predicted rent is: ",prediction)
-
-plt.plot(wl,j)
-plt.show()
