@@ -52,7 +52,11 @@ b=0.25
 
 w,b,j,wl=gradient_descent(x,y,w,b,100000)
 
-x_input=float(input("Enter house size: "))
+import sys
+if len(sys.argv) != 2:
+    print("Usage: python3 linear_reg.py <house_size>")
+    sys.exit(1)
+x_input=float(sys.argv[1])
 print("The w and b is: ",w,b)
 prediction= (w*x_input)+b
 print("Number of Iterations: ",len(j))
